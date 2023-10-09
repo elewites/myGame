@@ -76,11 +76,11 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="bin\config.txt" />
-    <Text Include="..\..\..\OneDrive\Documents\text_docs\programSpecifications.txt" />
+    <Text Include="gameSpecifications\config.txt" />
+    <Text Include="gameSpecifications\programSpecifications.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Font Include="bin\Arial.ttf" />
+    <Font Include="gameSpecifications\Arial.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.md" />

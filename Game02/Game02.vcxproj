@@ -164,11 +164,11 @@
     <ClInclude Include="src\model\Vec2.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\OneDrive\Documents\text_docs\programSpecifications.txt" />
-    <Text Include="bin\config.txt" />
+    <Text Include="gameSpecifications\config.txt" />
+    <Text Include="gameSpecifications\programSpecifications.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Font Include="bin\Arial.ttf" />
+    <Font Include="gameSpecifications\Arial.ttf" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
