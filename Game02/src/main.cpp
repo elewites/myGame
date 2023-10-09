@@ -6,6 +6,6 @@
 
 int main()
 {
-	Game game("bin/config.txt");
+	Game game("gameSpecifications/config.txt");
 	game.run();
 }
