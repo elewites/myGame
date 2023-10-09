@@ -1,0 +1,12 @@
+C:\Users\elewi\repos\Games\Game02\bin\x64\Release\concrt140.dll
+C:\Users\elewi\repos\Games\Game02\bin\x64\Release\msvcp140.dll
+C:\Users\elewi\repos\Games\Game02\bin\x64\Release\msvcp140_1.dll
+C:\Users\elewi\repos\Games\Game02\bin\x64\Release\msvcp140_2.dll
+C:\Users\elewi\repos\Games\Game02\bin\x64\Release\msvcp140_atomic_wait.dll
+C:\Users\elewi\repos\Games\Game02\bin\x64\Release\msvcp140_codecvt_ids.dll
+C:\Users\elewi\repos\Games\Game02\bin\x64\Release\vccorlib140.dll
+C:\Users\elewi\repos\Games\Game02\bin\x64\Release\vcruntime140.dll
+C:\Users\elewi\repos\Games\Game02\bin\x64\Release\vcruntime140_1.dll
+C:\Users\elewi\repos\Games\Game02\bin\x64\Release\vcamp140.dll
+C:\Users\elewi\repos\Games\Game02\bin\x64\Release\vcomp140.dll
+C:\Users\elewi\repos\Games\Game02\bin\intermediates\x64\Release\Game02.vcxproj.CopyComplete

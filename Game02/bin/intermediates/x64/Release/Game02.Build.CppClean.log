@@ -4,6 +4,17 @@ c:\users\elewi\repos\games\game02\bin\intermediates\x64\release\game.obj
 c:\users\elewi\repos\games\game02\bin\intermediates\x64\release\entitymanager.obj
 c:\users\elewi\repos\games\game02\bin\intermediates\x64\release\entity.obj
 c:\users\elewi\repos\games\game02\bin\intermediates\x64\release\main.obj
+c:\users\elewi\repos\games\game02\bin\x64\release\concrt140.dll
+c:\users\elewi\repos\games\game02\bin\x64\release\msvcp140.dll
+c:\users\elewi\repos\games\game02\bin\x64\release\msvcp140_1.dll
+c:\users\elewi\repos\games\game02\bin\x64\release\msvcp140_2.dll
+c:\users\elewi\repos\games\game02\bin\x64\release\msvcp140_atomic_wait.dll
+c:\users\elewi\repos\games\game02\bin\x64\release\msvcp140_codecvt_ids.dll
+c:\users\elewi\repos\games\game02\bin\x64\release\vccorlib140.dll
+c:\users\elewi\repos\games\game02\bin\x64\release\vcruntime140.dll
+c:\users\elewi\repos\games\game02\bin\x64\release\vcruntime140_1.dll
+c:\users\elewi\repos\games\game02\bin\x64\release\vcamp140.dll
+c:\users\elewi\repos\games\game02\bin\x64\release\vcomp140.dll
 c:\users\elewi\repos\games\game02\bin\x64\release\game02.exe
 c:\users\elewi\repos\games\game02\bin\intermediates\x64\release\game02.ipdb
 c:\users\elewi\repos\games\game02\bin\x64\release\game02.pdb
@@ -12,6 +23,8 @@ c:\users\elewi\repos\games\game02\bin\intermediates\x64\release\game02.tlog\cl.c
 c:\users\elewi\repos\games\game02\bin\intermediates\x64\release\game02.tlog\cl.items.tlog
 c:\users\elewi\repos\games\game02\bin\intermediates\x64\release\game02.tlog\cl.read.1.tlog
 c:\users\elewi\repos\games\game02\bin\intermediates\x64\release\game02.tlog\cl.write.1.tlog
+c:\users\elewi\repos\games\game02\bin\intermediates\x64\release\game02.tlog\copylocal.read.1u.tlog
+c:\users\elewi\repos\games\game02\bin\intermediates\x64\release\game02.tlog\copylocal.write.1u.tlog
 c:\users\elewi\repos\games\game02\bin\intermediates\x64\release\game02.tlog\link.command.1.tlog
 c:\users\elewi\repos\games\game02\bin\intermediates\x64\release\game02.tlog\link.read.1.tlog
 c:\users\elewi\repos\games\game02\bin\intermediates\x64\release\game02.tlog\link.write.1.tlog

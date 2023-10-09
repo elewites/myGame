@@ -1,0 +1,5 @@
+Window 1000 800 60 0
+Font gameSpecifications/Arial.ttf 24 255 255 255
+Player 32 32 5 0 0 255 255 255 255 2 10
+Enemy 20 20 2 10 255 255 255 2 3 8 60 180
+Bullet 10 10 15 255 0 0 255 255 255 2 10 60

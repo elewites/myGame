@@ -76,10 +76,13 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <Text Include="bin\x64\Release\gameSpecifications\config.txt" />
+    <Text Include="bin\x64\Release\gameSpecifications\programSpecifications.txt" />
     <Text Include="gameSpecifications\config.txt" />
     <Text Include="gameSpecifications\programSpecifications.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Font Include="bin\x64\Release\gameSpecifications\Arial.ttf" />
     <Font Include="gameSpecifications\Arial.ttf" />
   </ItemGroup>
   <ItemGroup>

@@ -77,6 +77,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>.\bin\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>.\bin\intermediates\$(Platform)\$(Configuration)\</IntDir>
+    <CopyCppRuntimeToOutputDir>true</CopyCppRuntimeToOutputDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>.\bin\$(Platform)\$(Configuration)\</OutDir>
@@ -85,6 +86,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>.\bin\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>.\bin\intermediates\$(Platform)\$(Configuration)\</IntDir>
+    <CopyCppRuntimeToOutputDir>true</CopyCppRuntimeToOutputDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -164,10 +166,13 @@
     <ClInclude Include="src\model\Vec2.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="bin\x64\Release\gameSpecifications\config.txt" />
+    <Text Include="bin\x64\Release\gameSpecifications\programSpecifications.txt" />
     <Text Include="gameSpecifications\config.txt" />
     <Text Include="gameSpecifications\programSpecifications.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Font Include="bin\x64\Release\gameSpecifications\Arial.ttf" />
     <Font Include="gameSpecifications\Arial.ttf" />
   </ItemGroup>
   <ItemGroup>
