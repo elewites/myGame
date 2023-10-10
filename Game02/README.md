@@ -17,7 +17,7 @@
 
 [bin](bin) folder contains executable files built with Visual Studio. 
 
-[gameSpecifications](gameSpecifications) folder has fonts used in game, a [game Config](gameSpecifications/gameConfig.txt) file and 
+[gameSpecifications](gameSpecifications) folder has fonts used in game, a [game Config](gameSpecifications/config.txt) file and 
 a [program specifications](gameSpecifications/programSpecifications.txt) file. Read program specifications if you want to understand how the game config file
 specifies the configurations for the game. In short, game config specifies the size, shape, and speed of entities in the game. 
 Game config is then read by game upon initialization. 
@@ -31,7 +31,7 @@ Game config is then read by game upon initialization.
 This game was designed using an Entity-Components-System (ECS) approach.
 
 **Entities**: In ECS, entities are the core elements of the game, representing objects such as players, enemies, projectiles, and interactive elements. They serve as containers for various components.
-- My [Entity](src/model/Enity.h) class encapsulates data related to an entity. In my game, three specific types of entities come to life, `Enenmy`, `Player`, `Bullet`.
+- My [Entity](src/model/Entity.h) class encapsulates data related to an entity. In my game, three specific types of entities come to life, `Enenmy`, `Player`, `Bullet`.
   The type of entity is set by the `m_tag`. Overall, the Entity class is simple, it stores whether an entity is alive, entity's id, and tag (type of Entity). Entity also has pointers to the components it may possess. 
 
 **Components**: Components are data containers that specify attributes or behaviors of entities. They can store information about an entity's position, rendering, physics, or AI behavior, among others. Entities can have multiple components. 
@@ -53,7 +53,7 @@ This game was designed using an Entity-Components-System (ECS) approach.
   6. `sCollision`: handles collisions between enemies.
  
 ### Entity Manager
-The [EntityManager](src/model/EntityManager.h) class serves as a central component within my game engine. It is responsible for managing all game entities, controlling their lifecycle, and providing a structured way to interact with them. The key methods of this class are update and removeDeadEntities, where lifecycle of entities are handled accordingly. 
+The [EntityManager](src/model/EntityManager.h) class serves as a central component within my game engine. It is responsible for managing all game entities, controlling their lifecycle, and providing a structured way to interact with them. The key methods of this class are update, addEntity, and removeDeadEntities, where lifecycle of entities are handled accordingly. 
 
 
 
