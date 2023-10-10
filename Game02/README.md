@@ -22,7 +22,7 @@ a [program specifications](gameSpecifications/programSpecifications.txt) file. R
 specifies the configurations for the game. In short, game config specifies the size, shape, and speed of entities in the game. 
 Game config is then read by game upon initialization. 
 
-[libraries](libraries) contains the dependencies that were used to build this program. 
+[libraries](libraries) contains the dependencies that were used to build this program. Mainly, SFML library.
 
 [src](src) folder contains the source code. 
 
@@ -35,7 +35,7 @@ This game was designed using an Entity-Components-System (ECS) approach.
   The type of entity is set by the `m_tag`. Overall, the Entity class is simple, it stores whether an entity is alive, entity's id, and tag (type of Entity). Entity also has pointers to the components it may possess. 
 
 **Components**: Components are data containers that specify attributes or behaviors of entities. They can store information about an entity's position, rendering, physics, or AI behavior, among others. Entities can have multiple components. 
-- My [Components](srs/model/Components.h) class encapsulates data related to components. The components that I have created for this game are:
+- My [Components](src/model/Components.h) class encapsulates data related to components. The components that I have created for this game are:
   1. `CTransform`: stores data regarding where an entity is and where it is going
   2. `CShape`: stores data related to the shape of an entity
   3. `CCollision`: stores data related to the radius of collision of an entity
