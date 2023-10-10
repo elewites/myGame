@@ -55,7 +55,8 @@ This game was designed using an Entity-Components-System (ECS) approach.
 ### Entity Manager
 The [EntityManager](src/model/EntityManager.h) class serves as a central component within my game engine. It is responsible for managing all game entities, controlling their lifecycle, and providing a structured way to interact with them. The key methods of this class are update, addEntity, and removeDeadEntities, where lifecycle of entities are handled accordingly. 
 
-
+### Vector Class
+The 2D Game Math implemented in my game engine is possible due my [Vec2](src/mode/Vec2.h) class. This class basically represents a point in a 2D coordinate system. In the game, this is used to represent position of entities and also vector velocities. The Vec2 class also has methods to add, subtract, multiply, and normalize vectors. 
 
 
 
