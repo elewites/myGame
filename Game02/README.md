@@ -6,7 +6,11 @@
 - `A` key to move left.
 - `D` key to move right.
 - `P` key to pause.
-- `Left-mouse click` to shoot. 
+- `Left-mouse click` to shoot.
+  
+### Objective
+- Move the player so that enemies do not collide with it. Shoot enemies to increase score.
+### Demo
 
 ## Run the Game
 1. Download [Release.zip](Release.zip)
