@@ -11,6 +11,7 @@
 ### Objective
 - Move the player so that enemies do not collide with it. Shoot enemies to increase score.
 ### Demo
+Check out this video demo of the game: [game_demo.mp4](game_demo.mp4)
 
 ## Run the Game
 1. Download [Release.zip](Release.zip)
